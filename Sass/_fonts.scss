@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Rubik Regular';
+    src: url('../fonts/Rubik-Regular.eot');
+    src: url('../fonts/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Rubik-Regular.woff') format('woff'),
+    url('../fonts/Rubik-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+font-family: 'Rubik Bold';
+src: url('../fonts/Rubik-Bold.eot');
+src: url('../fonts/Rubik-Bold.eot?#iefix') format('embedded-opentype'),
+url('../fonts/Rubik-Bold.woff') format('woff'),
+url('../fonts/Rubik-Bold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik Medium';
+    src: url('../fonts/Rubik-Medium.eot');
+    src: url('../fonts/Rubik-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Rubik-Medium.woff') format('woff'),
+    url('../fonts/Rubik-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@mixin regular {
+    font-family: 'Rubik Regular', sans-serif;
+}
+@mixin bold {
+    font-family: 'Rubik Bold', sans-serif;
+}
+@mixin medium {
+    font-family: 'Rubik Medium', sans-serif;
+}
